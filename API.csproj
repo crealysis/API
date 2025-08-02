@@ -6,6 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <ContainerRepository>book-manager</ContainerRepository>
+    <PublishProfile>DefaultContainer</PublishProfile>
+    <ContainerImageTags>1.0;latest</ContainerImageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.18" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.18" />
